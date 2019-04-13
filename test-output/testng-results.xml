@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Guru99 Bank Manager HomePage]]>
+    </line>
+    <line>
+      <![CDATA[User or Password is not valid]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83001" started-at="2019-04-13T01:12:50Z" finished-at="2019-04-13T01:14:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="83001" started-at="2019-04-13T01:12:50Z" finished-at="2019-04-13T01:14:13Z">
+      <class name="test.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="setup" is-config="true" duration-ms="49007" started-at="2019-04-13T01:12:51Z" finished-at="2019-04-13T01:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginMethod(java.lang.String, java.lang.String)[pri:0, instance:test.LoginPageTest@7e2d773b]" name="loginMethod" duration-ms="6653" started-at="2019-04-13T01:13:40Z" data-provider="getTestData" finished-at="2019-04-13T01:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr187752]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tYdEtUh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Guru99 Bank Manager HomePage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="720" started-at="2019-04-13T01:13:47Z" finished-at="2019-04-13T01:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="setup" is-config="true" duration-ms="13416" started-at="2019-04-13T01:13:48Z" finished-at="2019-04-13T01:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginMethod(java.lang.String, java.lang.String)[pri:0, instance:test.LoginPageTest@7e2d773b]" name="loginMethod" duration-ms="3018" started-at="2019-04-13T01:14:01Z" data-provider="getTestData" finished-at="2019-04-13T01:14:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mmm1111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tYdEtUh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User or Password is not valid]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="515" started-at="2019-04-13T01:14:04Z" finished-at="2019-04-13T01:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="setup" is-config="true" duration-ms="7419" started-at="2019-04-13T01:14:05Z" finished-at="2019-04-13T01:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="test2" duration-ms="2" started-at="2019-04-13T01:14:12Z" finished-at="2019-04-13T01:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginPageTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="584" started-at="2019-04-13T01:14:12Z" finished-at="2019-04-13T01:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
